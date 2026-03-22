@@ -141,11 +141,7 @@ export default function Index() {
                 <p className="greeting-text" style={px(5)}>
                   Добрый день, уважаемые коллеги!
                 </p>
-                <p className="intro-text" style={px(4)}>
-                  Меня зовут <strong>Коростелева Анна Александровна</strong>,
-                  я <strong>Петрова Наталья Андреевна</strong>.
-                  Мы представляем проект «День бабашек — шагаем в будущее».
-                </p>
+                <p className="intro-text font-light" style={px(4)}>Меня зовут Коростелева Анна Александровна, а я Петрова Наталья Андреевна. Мы представляем проект «День бабашек — шагаем в будущее».</p>
                 <button className="cta-btn" onClick={() => goTo(1)} style={px(8)}>
                   Перейти к проекту
                   <Icon name="ArrowRight" size={16} />
